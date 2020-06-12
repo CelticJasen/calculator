@@ -1,0 +1,145 @@
+#mainContainer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    width: 500px;
+    height: 550px;
+    background-color: dimgray;
+    border-radius: 25px;
+    filter: drop-shadow(10px 10px 4px rgb(58, 58, 58));
+}
+
+#calculatorContainer {
+    position: relative;
+    margin: 25px auto;
+    height: 90%;
+    width:90%;
+    background-color: gray;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+
+#displayContainer {
+    position: relative;
+    margin: 10px auto;
+    top: 10px;
+    height: 10%;
+    width: 90%;
+    border-radius: 10px;
+    background-color: khaki;
+}
+
+#displayContent {
+    padding: 5px;
+    margin-right: 20px;
+    text-align: right;
+    font-size: xx-large;
+    font-family: sans-serif;
+}
+
+#clearButton {
+    z-index: 1;
+    background-color: sienna;
+}
+
+#clearButton:hover {
+    background-color: red;
+}
+
+#clearButton:active {
+    background-color: silver;
+}
+
+#numberButtons {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    padding: 15px;
+    margin-left: 35px;
+    margin-top: 75px;
+    width: 60%;
+}
+
+#operationButtons {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    grid-template-columns: auto;
+    grid-template-rows: auto;
+    margin-left: 325px;
+    top: -380px;
+    padding: 5px;
+    width: 50px;
+    height: 360px;
+}
+
+.button {
+    position: relative;
+    margin: 5px;
+    width: 65px;
+    height: 65px;
+    font-size: xx-large;
+    border-radius: 10px;
+    border: 2px solid dimgray;
+    background-color: honeydew;
+    filter: drop-shadow(5px 5px 4px black);
+}
+
+.button:hover {
+    position: relative;
+    margin: 5px;
+    width: 65px;
+    height: 65px;
+    font-size: xx-large;
+    border-radius: 10px;
+    border: 2px solid dimgray;
+    background-color: goldenrod;
+}
+
+.button:active {
+    position: relative;
+    margin: 5px;
+    width: 65px;
+    height: 65px;
+    font-size: xx-large;
+    border-radius: 10px;
+    border: 2px solid dimgray;
+    background-color: seagreen;
+}
+
+.operation {
+    position: relative;
+    margin: 5px;
+    width: 65px;
+    height: 65px;
+    font-size: xx-large;
+    border-radius: 10px;
+    border: 2px solid dimgray;
+    background-color: rgb(117, 194, 150);
+    filter: drop-shadow(5px 5px 4px black);
+}
+
+.operation:hover {
+    position: relative;
+    margin: 5px;
+    width: 65px;
+    height: 65px;
+    font-size: xx-large;
+    border-radius: 10px;
+    border: 2px solid dimgray;
+    background-color: goldenrod;
+}
+
+.operation:active {
+    position: relative;
+    margin: 5px;
+    width: 65px;
+    height: 65px;
+    font-size: xx-large;
+    border-radius: 10px;
+    border: 2px solid dimgray;
+    background-color: honeydew;
+}
