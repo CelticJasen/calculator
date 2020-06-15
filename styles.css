@@ -5,12 +5,12 @@
     bottom: 0;
     right: 0;
     margin: auto;
-    width: 25%;
+    width: 50%;
     height: 0;
-    padding-bottom: 40%;
+    padding-bottom: 55%;
     background-color: dimgray;
-    border-radius: 25px;
-    filter: drop-shadow(10px 10px 4px rgb(58, 58, 58));
+    border-radius: 3%;
+    filter: drop-shadow(1.5vw 1.5vw 1vw rgb(58, 58, 58));
 }
 
 #calculatorContainer {
@@ -19,7 +19,7 @@
     height: 90%;
     width:90%;
     background-color: gray;
-    border-radius: 25px;
+    border-radius: 3%;
     border: 2px solid black;
 }
 
@@ -29,20 +29,19 @@
     top: 2%;
     height: 10%;
     width: 90%;
-    border-radius: 10px;
+    border-radius: 3%;
     background-color: khaki;
 }
 
 #displayContent {
-    padding: 3%;
+    padding: 1%;
     margin-right: 5%;
     text-align: right;
-    font-size: 2vw;
+    font-size: 3vw;
     font-family: sans-serif;
 }
 
 #clearButton {
-    text-align: left;
     background-color: sienna;
 }
 
@@ -57,12 +56,12 @@
 #numberButtons {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    grid-template-rows: auto auto auto auto auto;
+    grid-template-rows: 20% 20% 20% 20% 20%;
     padding: 5%;
     margin-left: 4%;
     margin-top: 2%;
     width: 80%;
-    height: auto;
+    height: 70%;
 }
 
 #divide {
@@ -77,24 +76,22 @@
 
 .button {
     position: relative;
-    padding: 10%;
     margin: 10%;
     width: 80%;
     height: 95%;
-    font-size: 2vw;
+    font-size: 3vw;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: honeydew;
-    filter: drop-shadow(5px 5px 4px black);
+    filter: drop-shadow(0.5vw 0.5vw 0.25vw black);
 }
 
 .button:hover {
     position: relative;
-    padding: 10%;
     margin: 10%;
     width: 80%;
     height: 95%;
-    font-size: 2vw;
+    font-size: 3vw;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: goldenrod;
@@ -102,11 +99,10 @@
 
 .button:active {
     position: relative;
-    padding: 10%;
     margin: 10%;
     width: 80%;
     height: 95%;
-    font-size: 2vw;
+    font-size: 3vw;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: seagreen;
@@ -114,24 +110,22 @@
 
 .operation {
     position: relative;
-    padding: 10%;
     margin: 10%;
     width: 80%;
     height: 95%;
-    font-size: 2vw;
+    font-size: 3vw;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: rgb(117, 194, 150);
-    filter: drop-shadow(5px 5px 4px black);
+    filter: drop-shadow(0.5vw 0.5vw 0.25vw black);
 }
 
 .operation:hover {
     position: relative;
-    padding: 10%;
     margin: 10%;
     width: 80%;
     height: 95%;
-    font-size: 2vw;
+    font-size: 3vw;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: goldenrod;
@@ -139,11 +133,10 @@
 
 .operation:active {
     position: relative;
-    padding: 10%;
     margin: 10%;
     width: 80%;
     height: 95%;
-    font-size: 2vw;
+    font-size: 3vw;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: honeydew;
