@@ -41,7 +41,6 @@
 }
 
 #clearButton {
-    z-index: 1;
     background-color: sienna;
 }
 
@@ -80,7 +79,7 @@
     margin: 10%;
     width: 80%;
     height: 95%;
-    font-size: xx-large;
+    font-size: 2rem;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: honeydew;
@@ -89,10 +88,11 @@
 
 .button:hover {
     position: relative;
-    margin: 5%;
+    padding: 10%;
+    margin: 10%;
     width: 80%;
-    height: 90%;
-    font-size: xx-large;
+    height: 95%;
+    font-size: 2rem;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: goldenrod;
@@ -100,10 +100,11 @@
 
 .button:active {
     position: relative;
-    margin: 5%;
+    padding: 10%;
+    margin: 10%;
     width: 80%;
-    height: 90%;
-    font-size: xx-large;
+    height: 95%;
+    font-size: 2rem;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: seagreen;
@@ -115,7 +116,7 @@
     margin: 10%;
     width: 80%;
     height: 95%;
-    font-size: xx-large;
+    font-size: 2rem;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: rgb(117, 194, 150);
@@ -128,7 +129,7 @@
     margin: 10%;
     width: 80%;
     height: 95%;
-    font-size: xx-large;
+    font-size: 2rem;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: goldenrod;
@@ -140,7 +141,7 @@
     margin: 10%;
     width: 80%;
     height: 95%;
-    font-size: xx-large;
+    font-size: 2rem;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: honeydew;
