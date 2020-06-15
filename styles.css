@@ -1,20 +1,21 @@
 #mainContainer {
-    position: fixed;
+    position: relative;
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
     margin: auto;
-    width: 300px;
-    height: 70%;
+    width: 25%;
+    height: 0;
+    padding-bottom: 40%;
     background-color: dimgray;
     border-radius: 25px;
     filter: drop-shadow(10px 10px 4px rgb(58, 58, 58));
 }
 
 #calculatorContainer {
-    position: relative;
-    margin: 5% auto;
+    position: absolute;
+    margin: 5% 0% 0% 4%;
     height: 90%;
     width:90%;
     background-color: gray;
@@ -36,7 +37,7 @@
     padding: 3%;
     margin-right: 5%;
     text-align: right;
-    font-size: xx-large;
+    font-size: 2vw;
     font-family: sans-serif;
 }
 
@@ -80,7 +81,7 @@
     margin: 10%;
     width: 80%;
     height: 95%;
-    font-size: 2rem;
+    font-size: 2vw;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: honeydew;
@@ -93,7 +94,7 @@
     margin: 10%;
     width: 80%;
     height: 95%;
-    font-size: 2rem;
+    font-size: 2vw;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: goldenrod;
@@ -105,7 +106,7 @@
     margin: 10%;
     width: 80%;
     height: 95%;
-    font-size: 2rem;
+    font-size: 2vw;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: seagreen;
@@ -117,7 +118,7 @@
     margin: 10%;
     width: 80%;
     height: 95%;
-    font-size: 2rem;
+    font-size: 2vw;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: rgb(117, 194, 150);
@@ -130,7 +131,7 @@
     margin: 10%;
     width: 80%;
     height: 95%;
-    font-size: 2rem;
+    font-size: 2vw;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: goldenrod;
@@ -142,7 +143,7 @@
     margin: 10%;
     width: 80%;
     height: 95%;
-    font-size: 2rem;
+    font-size: 2vw;
     border-radius: 20%;
     border: 2px solid dimgray;
     background-color: honeydew;
