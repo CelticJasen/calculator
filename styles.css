@@ -5,8 +5,8 @@
     bottom: 0;
     right: 0;
     margin: auto;
-    width: 500px;
-    height: 550px;
+    width: 40%;
+    height: auto;
     background-color: dimgray;
     border-radius: 25px;
     filter: drop-shadow(10px 10px 4px rgb(58, 58, 58));
@@ -14,7 +14,7 @@
 
 #calculatorContainer {
     position: relative;
-    margin: 25px auto;
+    margin: 5% auto;
     height: 90%;
     width:90%;
     background-color: gray;
@@ -24,8 +24,8 @@
 
 #displayContainer {
     position: relative;
-    margin: 10px auto;
-    top: 10px;
+    margin: 2% auto;
+    top: 2%;
     height: 10%;
     width: 90%;
     border-radius: 10px;
@@ -33,8 +33,8 @@
 }
 
 #displayContent {
-    padding: 5px;
-    margin-right: 20px;
+    padding: 3%;
+    margin-right: 5%;
     text-align: right;
     font-size: xx-large;
     font-family: sans-serif;
@@ -55,12 +55,13 @@
 
 #numberButtons {
     display: grid;
-    grid-template-columns: auto auto auto;
-    grid-template-rows: auto auto;
-    padding: 15px;
-    margin-left: 35px;
-    margin-top: 75px;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto auto auto;
+    padding: 5%;
+    margin-left: 4%;
+    margin-top: 25%;
     width: 60%;
+    height: auto;
 }
 
 #operationButtons {
@@ -69,20 +70,21 @@
     flex-direction: column;
     grid-template-columns: auto;
     grid-template-rows: auto;
-    margin-left: 325px;
-    top: -380px;
-    padding: 5px;
-    width: 50px;
-    height: 360px;
+    margin-left: 75%;
+    bottom: 55%;
+    padding: 2%;
+    width: 13%;
+    height: 55%;
 }
 
 .button {
     position: relative;
-    margin: 5px;
-    width: 65px;
-    height: 65px;
+    padding: 10%;
+    margin: 10%;
+    width: 80%;
+    height: 95%;
     font-size: xx-large;
-    border-radius: 10px;
+    border-radius: 20%;
     border: 2px solid dimgray;
     background-color: honeydew;
     filter: drop-shadow(5px 5px 4px black);
@@ -90,33 +92,33 @@
 
 .button:hover {
     position: relative;
-    margin: 5px;
-    width: 65px;
-    height: 65px;
+    margin: 5%;
+    width: 80%;
+    height: 90%;
     font-size: xx-large;
-    border-radius: 10px;
+    border-radius: 20%;
     border: 2px solid dimgray;
     background-color: goldenrod;
 }
 
 .button:active {
     position: relative;
-    margin: 5px;
-    width: 65px;
-    height: 65px;
+    margin: 5%;
+    width: 80%;
+    height: 90%;
     font-size: xx-large;
-    border-radius: 10px;
+    border-radius: 20%;
     border: 2px solid dimgray;
     background-color: seagreen;
 }
 
 .operation {
     position: relative;
-    margin: 5px;
-    width: 65px;
-    height: 65px;
+    margin: 5%;
+    width: 120%;
+    height: 100%;
     font-size: xx-large;
-    border-radius: 10px;
+    border-radius: 20%;
     border: 2px solid dimgray;
     background-color: rgb(117, 194, 150);
     filter: drop-shadow(5px 5px 4px black);
@@ -124,22 +126,22 @@
 
 .operation:hover {
     position: relative;
-    margin: 5px;
-    width: 65px;
-    height: 65px;
+    margin: 5%;
+    width: 120%;
+    height: 100%;
     font-size: xx-large;
-    border-radius: 10px;
+    border-radius: 20%;
     border: 2px solid dimgray;
     background-color: goldenrod;
 }
 
 .operation:active {
     position: relative;
-    margin: 5px;
-    width: 65px;
-    height: 65px;
+    margin: 5%;
+    width: 120%;
+    height: 100%;
     font-size: xx-large;
-    border-radius: 10px;
+    border-radius: 20%;
     border: 2px solid dimgray;
     background-color: honeydew;
 }
