@@ -45,7 +45,7 @@ function divide (a, b){
 
 function changeText(string){
 	if(!displayText.includes(".") || string !== "."){
-		if(displayText.length <= 10){
+		if(displayText.length <= 20){
 			displayText += string;
 			display();
 		}
