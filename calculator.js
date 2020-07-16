@@ -36,7 +36,7 @@ function multiply (a, b){
 }
 
 function divide (a, b){
-	if(a === 0 && b === 0){
+	if(a === 0 || b === 0){
 		return "Ouch...";
 	}
 
@@ -45,8 +45,10 @@ function divide (a, b){
 
 function changeText(string){
 	if(!displayText.includes(".") || string !== "."){
-		displayText += string;
-		display();
+		if(displayText.length <= 10){
+			displayText += string;
+			display();
+		}
 	}
 }
 
